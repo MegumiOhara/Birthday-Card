@@ -2,14 +2,12 @@ body{
     width: 100%;
     background-color: rgb(247, 243, 209);
 }
-
-
 .main-text{
     position: relative;
+    bottom:50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;  
 }
 h1{
     font-size: 100px;
@@ -21,7 +19,39 @@ h1{
         "MORF" 15,
         "SHLN" 50;
     }
+@keyframes imgZoom{
+    0%{transform: scale(1)rotate(0deg);}
+    50%{transform: scale(1.1)rotate(10deg);}
+    75%{transform: scale(1.1)rotate(-10deg);}
+    100%{transform: scale(1)rotate(0);}
+    
+    
+}
 .envelope{
     position: relative;
-    right: 40px;   
+    right: 5px;   
+    animation: imgZoom 4s ease infinite;
+}
+.crown{
+    margin-top: 20px;
+}
+.diamond{
+    width: 100%;
+    max-width: 200px;
+    max-height: 150px;
+}
+.btn{
+    position: absolute;
+    bottom:50px;
+    font-size: 16px;
+    border-radius: 5px;
+    border-color: white;
+    background-color:rgb(228, 48, 69);
+    font-family: sans-serif;
+    color: whitesmoke;
+    transition: width 2s;
+}
+.btn:hover{
+    background-color: rgb(255, 62, 191);
+    height:40px;
 }
