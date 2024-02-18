@@ -28,7 +28,7 @@ h1{
 .envelope{
     position: relative;
     right: 5px;  
-    margin-bottom: 30px; 
+    margin-bottom: 15px; 
     animation: imgZoom 4s ease infinite;
 }
 
@@ -70,6 +70,7 @@ h1{
     position: absolute;
     bottom:50px;
     font-size: 16px;
+    margin: 5px;
     border-radius: 5px;
     border-color: white;
     background-color:rgb(228, 48, 69);
