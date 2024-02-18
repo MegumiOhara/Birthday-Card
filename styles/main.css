@@ -30,6 +30,7 @@ h1{
     right: 5px;   
     animation: imgZoom 4s ease infinite;
 }
+
 .header{
     display: flex;
     justify-content: center;
@@ -78,4 +79,20 @@ h1{
 .btn:hover{
     background-color: rgb(255, 62, 191);
     height:40px;
+    transition: all 0.8s ease-in-out;
+    transition-delay: 0.8ss;
+}
+@keyframes imgHeart{
+    from{transform: scale(1);}
+    to{transform: scale(2);}
+}
+.heart{
+    fill: rgb(224, 74, 176);
+    width: 50px;
+    animation: imgHeart 1s ease-out infinite;
+}
+.mini-heart{
+    fill: rgb(191, 1, 33);
+    width: 20px;
+    animation: imgHeart 1s ease-out infinite;
 }
