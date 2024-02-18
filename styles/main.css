@@ -24,16 +24,20 @@ h1{
     50%{transform: scale(1.1)rotate(10deg);}
     75%{transform: scale(1.1)rotate(-10deg);}
     100%{transform: scale(1)rotate(0);}
-    
-    
 }
 .envelope{
     position: relative;
     right: 5px;   
     animation: imgZoom 4s ease infinite;
 }
-.crown{
-    margin-top: 20px;
+.header{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: flex-end;
 }
 .diamond{
     width: 100%;
