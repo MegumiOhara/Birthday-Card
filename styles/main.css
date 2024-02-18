@@ -27,7 +27,8 @@ h1{
 }
 .envelope{
     position: relative;
-    right: 5px;   
+    right: 5px;  
+    margin-bottom: 30px; 
     animation: imgZoom 4s ease infinite;
 }
 
@@ -38,7 +39,7 @@ h1{
 .footer-text{
      display: flex;
      justify-content: space-between;
-     position: relative;
+     
 }
 @keyframes imgMove{
     0%{transform:translateY(0px);}
@@ -74,7 +75,7 @@ h1{
     background-color:rgb(228, 48, 69);
     font-family: sans-serif;
     color: whitesmoke;
-    transition: width 2s;
+    transition: width 1s;
 }
 .btn:hover{
     background-color: rgb(255, 62, 191);
@@ -88,11 +89,15 @@ h1{
 }
 .heart{
     fill: rgb(224, 74, 176);
-    width: 50px;
+    width: 100%;
+    max-width: 50px;
+    max-height:45px;
     animation: imgHeart 1s ease-out infinite;
 }
 .mini-heart{
     fill: rgb(191, 1, 33);
-    width: 20px;
+    width: 100%;
+    max-width: 30px;
+    max-height: 15px;
     animation: imgHeart 1s ease-out infinite;
 }
